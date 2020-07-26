@@ -1,4 +1,4 @@
-exports.format = (node) => {
+export const format = (node) => {
   return `${node.name}\n${formatEach(node.children,'')}`;
 };
 
